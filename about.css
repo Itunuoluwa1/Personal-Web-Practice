@@ -1,0 +1,59 @@
+.about-heading {
+  text-align: center;
+  color: #9fafca;
+  font-size: 500%;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 35px;
+  color: #9fafca;
+}
+
+p,
+li {
+  line-height: 30px;
+  font-size: 25px;
+  color: #9fafca;
+}
+
+.intro {
+  border: 12px solid #9fafca;
+  text-align: center;
+  background-color: #0e387a;
+  padding: 20px;
+}
+
+.sub-intro {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: right;
+  margin-right: 15px;
+  font-family: Arial;
+  font-size: x-large;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav li {
+    font-size: small;
+  }
+}
+
+hr {
+  height: 5px;
+  background-color: #0e387a;
+}
+
+.nav li :hover {
+  color: cadetblue;
+}
+
+body {
+  background-color: #0e387a;
+}
